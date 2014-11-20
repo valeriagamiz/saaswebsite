@@ -1,0 +1,344 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+}
+
+body{
+    font-family: Helvetica, Gill Sans Mt, serif;
+    margin: 0;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a{
+    position: absolute;
+    top: -3em;
+    background-color: #8CD4E0;
+    color: #fff;
+    padding: 0.5em 0.75em;
+    font-weight: bold;
+}
+
+.skip-links a:focus {
+    top:0;
+}
+
+.logo{
+    text-align: center;
+    padding: 1rem;
+}
+
+.logoimg{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.headerbackground{ 
+    background-color:  white;
+    width: 100%;
+}
+
+.headlineintro{
+    background-color: #8CD4E0;
+    width: 100%;
+
+}
+
+.headlineintro{
+    margin: 0rem;
+    padding-top:8rem;
+    padding-bottom: 8rem;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.headlineintro2{
+    color:  white;
+    font-size: 1.7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.headlineintro3{ 
+    font-size: 1.5rem;
+    text-decoration-line: underline;
+}
+
+.pricingheadline{
+    margin: 0rem;
+    padding-top:8rem;
+    padding-bottom: 8rem;
+    text-align: center;
+    font-size: 2.3rem;
+    border: solid;
+    color: #8CD4E0;
+    background-color:#8CD4E0;
+}
+
+.pricingparrafo{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white;;
+}
+
+.price{ 
+    padding-top: 1rem;
+    color: #666666;
+    background-color: white; 
+     text-align: center;
+    border: solid 4px;
+    border-color:#8CD4E0;
+}
+
+.price1{
+     color: black;
+    background-color: white;
+    text-align: center;
+    border: solid 4px;
+    border-color:#8CD4E0;
+}
+
+.button1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    padding-top: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-color: #A4DB4D;
+    border-width: thick 9px;
+}
+
+.button2{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    padding-top: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-color: #666666;
+    border-width: thick 4px;
+    color: #8CD4E0 ;
+}
+
+h1,h2{
+    color: #A4DB4D;
+}
+
+.howitworks{
+    padding-left: : 1rem; 
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 100%;
+    font-weight:normal;
+    text-align: center;
+    background-color: #666666;
+}
+
+input + labe{
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+.backgroundsignup{
+    background-color:red; 
+}
+
+.signupheadline{
+    padding-left: 2rem;
+}
+
+.signupbox{
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+
+label{
+    display: block;
+}
+
+input + label{
+    display: inline-flex;
+}
+
+.radio{
+    white-space:nowrap;
+}
+
+form{
+    max-width: 45em;
+    margin: 0 auto;
+    color: #666666;
+}
+.wboxes{ 
+    border: 1px solid;
+    border-color: #A4DB4D;
+    font-size: 1em;
+    background-color: white;
+    padding: .2em;
+    width: 100%
+}
+
+
+.parrafo1{
+    color: white;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    line-height: 130%;
+    font-size:  1.2rem;
+}
+
+button{
+    font-size: 2.5rem;
+    align-content: center;
+    border-width: thin;
+    border-color: #8CD4E0;
+    background-color:white;
+}
+
+.sendbutton{
+    text-align:center;
+    padding-top: 2rem;
+}
+.nav a,
+.nav a:link,
+.nav a:visited {
+    display: block;
+    color: black;
+    text-decoration:none;
+    font-size: 1.5rem;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+    background-color: none;
+    color: #A4DB4D;
+    text-decoration: none;
+}
+
+
+@media only screen and (min-width:25em) {
+    
+    .logo{
+        padding-left: 3.5rem;
+        padding-top: 2rem;
+    }
+    
+ .nav li{
+     display: inline-block;  
+     padding-left: 2rem;
+     padding-right: 2rem;
+     padding-top: 2rem;
+     align-content: center;
+}
+    .nav{
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .nav-footer{
+        text-align: center;
+    }
+    
+    .copyright{ 
+        text-align: center;
+    }
+       .signupheadline{
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width:38em) {
+    
+    .logoimg{
+        margin: 0;
+    }
+    
+    .nav li{
+        text-align: right;
+        display: inline-block;
+        padding: 1.5rem;
+        
+}
+    h1{ 
+        float: left;
+    }
+    .nav{
+    float: right;
+    }
+    .nav-footer{
+        float: right;
+    }
+    
+    .footer{
+        text-align: right;
+    }
+    
+    .copyright{ 
+        text-align: left;
+    }
+
+       .signupheadline{
+        text-align: center;
+    }
+}
+
+
+@media only screen and ( min-width: 60em) {
+    
+      .nav-footer{
+        text-align: left;
+    }
+    
+    .copyright{ 
+        text-align: left;
+    }
+     .nav-footer{
+        float: right;
+    }
+    
+    dd{
+        float: left;
+        width: 50%;
+    }
+    dt{
+        float: left;
+        width: 50%;
+    }
+    
+}
+
+
