@@ -61,14 +61,8 @@ img {
 }
 
 .headerbackground{ 
-    background-color:  white;
-    width: 100%;
-}
-
-.headlineintro{
     background-color: #8CD4E0;
     width: 100%;
-
 }
 
 .headlineintro{
@@ -77,10 +71,14 @@ img {
     padding-bottom: 8rem;
     text-align: center;
     font-size: 2.3rem;
+    background-color: white;
+    width: 100%;
+    border: solid 8px;
+    border-color: #666666;
 }
 
 .headlineintro2{
-    color:  white;
+    color:  #8CD4E0;
     font-size: 1.7rem;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -91,6 +89,11 @@ img {
     text-decoration-line: underline;
 }
 
+.intro1{
+    background-color: #666666;
+    color: white;
+}
+
 .pricingheadline{
     margin: 0rem;
     padding-top:8rem;
@@ -98,14 +101,14 @@ img {
     text-align: center;
     font-size: 2.3rem;
     border: solid;
-    color: #8CD4E0;
-    background-color:#8CD4E0;
+    border-color: #666666; 
+    color: white;
+    background-color:#666666;
 }
 
 .pricingparrafo{
     padding-left: 2rem;
     padding-right: 2rem;
-    color: white;;
 }
 
 .price{ 
@@ -114,11 +117,11 @@ img {
     background-color: white; 
      text-align: center;
     border: solid 4px;
-    border-color:#8CD4E0;
+    border-color:#666666;
 }
 
 .price1{
-     color: black;
+    color: black;
     background-color: white;
     text-align: center;
     border: solid 4px;
@@ -146,9 +149,10 @@ img {
     padding-top: 1.3rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    border-color: #666666;
+    border-color: #A4DB4D;
     border-width: thick 4px;
-    color: #8CD4E0 ;
+    color: #666666 ;
+    font-weight:100;
 }
 
 h1,h2{
@@ -209,6 +213,18 @@ form{
     width: 100%
 }
 
+.backgroundimg{
+    align-content: center;
+    padding-bottom: 3rem;
+}
+
+.intro1{
+    padding: 4rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    font-weight: 400px;
+}
+
 
 .parrafo1{
     color: white;
@@ -234,7 +250,7 @@ button{
 .nav a:link,
 .nav a:visited {
     display: block;
-    color: black;
+    color: white;
     text-decoration:none;
     font-size: 1.5rem;
 }
@@ -244,7 +260,7 @@ button{
 .nav a:active,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    background-color: none;
+    background-color: white;
     color: #A4DB4D;
     text-decoration: none;
 }
@@ -318,6 +334,11 @@ button{
 
 
 @media only screen and ( min-width: 60em) {
+    
+    .intro1{
+          padding-left: 7em;
+        padding-right: 7em;
+    }
     
       .nav-footer{
         text-align: left;
