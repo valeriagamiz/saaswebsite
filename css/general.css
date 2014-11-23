@@ -61,7 +61,7 @@ img {
 }
 
 .headerbackground{ 
-    background-color: #8CD4E0;
+    background-color: #666666;
     width: 100%;
 }
 
@@ -74,7 +74,7 @@ img {
     background-color: white;
     width: 100%;
     border: solid 8px;
-    border-color: #666666;
+    border-color:  #666666;
 }
 
 .headlineintro2{
@@ -102,8 +102,8 @@ img {
     font-size: 2.3rem;
     border: solid;
     border-color: #666666; 
-    color: white;
-    background-color:#666666;
+    color: #666666;
+    background-color:white;
 }
 
 .pricingparrafo{
@@ -155,8 +155,16 @@ img {
     font-weight:100;
 }
 
-h1,h2{
-    color: #A4DB4D;
+h1{
+    color:#A4DB4D;
+}
+
+h2{
+    color: #666666
+}
+
+.terms{
+    text-align: center;
 }
 
 .howitworks{
@@ -166,7 +174,9 @@ h1,h2{
     width: 100%;
     font-weight:normal;
     text-align: center;
-    background-color: #666666;
+    background-color: #8CD4E0;
+    border: solid 7px; 
+    border-color: white; 
 }
 
 input + labe{
@@ -227,7 +237,7 @@ form{
 
 
 .parrafo1{
-    color: white;
+    color: #666666;
     padding-right: 2rem;
     padding-left: 2rem;
     line-height: 130%;
@@ -240,6 +250,7 @@ button{
     border-width: thin;
     border-color: #8CD4E0;
     background-color:white;
+   
 }
 
 .sendbutton{
@@ -253,6 +264,7 @@ button{
     color: white;
     text-decoration:none;
     font-size: 1.5rem;
+    padding-top: 3rem;
 }
 
 .nav a:hover,
@@ -260,7 +272,7 @@ button{
 .nav a:active,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    background-color: white;
+    background-color: none;
     color: #A4DB4D;
     text-decoration: none;
 }
@@ -294,6 +306,11 @@ button{
     }
        .signupheadline{
         text-align: left;
+           padding-top: 2rem;
+    }
+    
+    .terms{
+       margin: 0; 
     }
 }
 
@@ -336,7 +353,7 @@ button{
 @media only screen and ( min-width: 60em) {
     
     .intro1{
-          padding-left: 7em;
+        padding-left: 7em;
         padding-right: 7em;
     }
     
