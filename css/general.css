@@ -231,8 +231,10 @@ form{
 }
 
 .backgroundimg{
-    align-content: center;
     padding-bottom: 3rem;
+    width: 82%;
+    align-content: center;
+    padding-left: 10rem;
 }
 
 .intro1{
@@ -280,14 +282,19 @@ footer{
     color: white;
 }
 
+
+
 .nav a,
 .nav a:link,
 .nav a:visited {
-    display: block;
+    display: inline-block;
     color: white;
     text-decoration:none;
     font-size: 1.5rem;
     padding-top: 3rem;
+    text-align: center;
+    text-decoration: none; 
+    padding-bottom: 1rem;
 }
 
 .nav a:hover,
@@ -302,12 +309,6 @@ footer{
 
 
 @media only screen and (min-width:25em) {
-    
-     .nav-footer{
-        display: inline-block;  
-        text-align: right;
-         padding: 1rem;
-}
     
        .iphone1{
         width: 80%;
@@ -326,11 +327,12 @@ footer{
     
  .nav li{
      display: inline-block;  
-     align-content: right;
-     padding: 3rem;
+     align-content: center;
+     padding: 1rem;
 }
     .nav{
-        text-align: center;
+        text-align: right;
+        padding: 0rem;
         text-decoration: none;
     }
     
@@ -351,21 +353,16 @@ footer{
         padding-top: 6rem;
         width: 100%;
 }
-    
-    .nav-footer{
-        display: inline-block;  
-        text-align: center;
-        padding-right: 1rem;
-}
+
     
     .logoimg{
         margin: 0;
     }
     
     .nav li{
-        text-align: right;
+        text-align: center;
         display: inline-block;
-        padding: .9rem; 
+        padding: 1rem; 
 }
     h1{ 
         float: left;
@@ -373,9 +370,6 @@ footer{
     
     .nav{
     float: right;
-    }
-    .nav-footer{
-        float: right;
     }
     
     .copyright{ 
@@ -391,7 +385,7 @@ footer{
 @media only screen and ( min-width: 60em) {
     
        .nav li{
-        text-align: right;
+        text-align: center;
         display: inline-block;
         padding: 2.5rem; 
 }
@@ -411,14 +405,12 @@ footer{
     }
     
       .nav-footer{
-        text-align: left;
+        text-align: center;
+          
     }
     
     .copyright{ 
         text-align: left;
-    }
-     .nav-footer{
-        float: right;
     }
     
     dd{
