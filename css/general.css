@@ -225,11 +225,13 @@ h2{
 
 .blocks{
     font-size: 1em;
-    padding: 4 0 0 4rem;
+    padding: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: left;
 }
 .comments{
     font-weight:normal;
-    text-align: center; 
     color: #666666;
     background-color: white;
     display: -webkit-box;
@@ -298,6 +300,7 @@ blockquote p:after {
 }
 
 .people{
+    padding-top: rem;
     width: 30%;
     align-content: center;
 }
