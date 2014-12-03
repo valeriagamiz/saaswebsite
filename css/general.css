@@ -80,8 +80,6 @@ p{
     font-size: 2.3rem;
     background-color: white;
     width: 100%;
-    border: solid 8px;
-    border-color:  #666666;
 }
 
 .headlineintro2{
@@ -123,6 +121,7 @@ p{
 .pricingparrafo{
     padding-left: 2rem;
     padding-right: 2rem;
+    color: #A4DB4D
 }
 
 .price{ 
@@ -272,7 +271,7 @@ blockquote {
 }
 
 blockquote span {
-    font-weight: bold;
+    font-weight: bolder;
     float: center; 
     color: #A4DB4D;
     margin: 1.5rem 0;
@@ -478,7 +477,7 @@ footer{
     
     
     .signupheadline{
-        text-align: left;
+        text-align: center;
         padding-top: 2rem;
     }
     
