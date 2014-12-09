@@ -75,12 +75,15 @@ p{
     text-align: center;
 }
 
+
 .p1{
     text-align: left;
     padding-left: 3rem;
     font-size: 1.5em;
     color: #666666;
-    
+    width:auto;
+    height:auto;
+    max-width:none;   
 }
 
 .p2{
@@ -90,9 +93,12 @@ p{
     margin-left: 3rem;
     margin-right: 0.4rem;
     padding-right: 3rem;
+    width:auto;
+    height:auto;
+    max-width:900px;
 }
 
-.bluebackground {
+.imgbillboard {
     background-image: url(../images/familyjump.jpg);
     background-size: cover;
 }
@@ -106,21 +112,19 @@ p{
     background-color: rgba(140,212,0224,0.3);
     
 }
+.transparency{
+    background-color: rgba(0,0,0,0.5);
+}
+
 
 .headlineintro1{
     font-weight: lighter;
     text-align: center;
-
-}
-
-.billboard{
     color: #A4DB4D;
-    background-color: rgba(0,0,0,.7);
 }
 
 .headlineintro2{
     color: #8CD4E0;
-    background-color:rgba(0,0,0,0.7);
     font-size: 1.3rem;
     margin-top: -1rem;
 }
@@ -145,7 +149,6 @@ p{
     padding-top:8rem;
     padding-bottom: 8rem;
     text-align: center;
-    font-size: 2.3rem;
     border: solid;
     border-color: #666666; 
     color: #666666;
@@ -165,7 +168,7 @@ p{
     text-align: center;
     border: solid 4px;
     border-color:#666666;
-        display: -webkit-box;
+    display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -210,6 +213,10 @@ p{
     padding-right: 1rem;
     border-color: #A4DB4D;
     border-width: thick 9px 8px 8px;
+    border-style:outset; 
+    color: black;
+    text-decoration: none; 
+    display: inline-block;
 }
 
 .button2{
@@ -254,6 +261,12 @@ p1{
     padding-right: 5rem;
     text-align: center;
     
+}
+
+.introduction{
+    max-width: 40em; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cajas{
@@ -344,9 +357,11 @@ blockquote p:after {
     margin: -.8rem 0 0 .5rem;
     float: right;
 }
+
 .faqbackground{
     background-color: #8CD4E0;
     color: white;
+    width: 100%;
 }
 
 .faq1{
@@ -544,6 +559,15 @@ ul{
 
 @media only screen and (min-width:25em) {
     }
+.nav-footer{
+    margin: 0 auto;
+    padding-right: 3rem;
+}
+
+.nav{
+     margin: 0 auto;
+    padding-right: 3rem;
+}
 
 .copyright{
     text-align: left;
@@ -578,8 +602,8 @@ ul{
  .nav li{
      display: inline-block;  
      align-content: center;
-     padding-right: 4rem;
-     padding-left: 4rem;
+     padding-right: 0rem;
+     padding-left: 2rem;
      text-align: center;
 }
     .nav{
@@ -599,18 +623,18 @@ ul{
 }
 
 @media only screen and (min-width:38em) {
-    
+     
     .backgroundimg{
     width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-    
+
     .faq{
     text-align: left;
 }
-
+    
     .copyright{
     text-align: left;
     padding-left: 1rem;
@@ -624,8 +648,6 @@ ul{
         float: left;
     }
     
-    
-
        .signupheadline{
         text-align: center;
     }
@@ -637,9 +659,6 @@ ul{
        .nav li{
         display: inline-block;
         padding: 0rem; 
-}
-     .p2{
-    padding-right: 10rem;
 }
 
 .headlineintro2{
